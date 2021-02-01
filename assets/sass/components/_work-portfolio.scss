@@ -1,0 +1,32 @@
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1.5rem;
+  row-gap: 3rem;
+  align-items: start;
+  img {
+    max-width: 100%;
+    height: auto;    
+    &:hover {
+      opacity: 0.8;
+    }
+  }  
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project a {
+  border-bottom: none;
+}
+
+.project p {
+  text-align: center;
+}
+
+.yellow {
+  color: #FDF912;  
+}
