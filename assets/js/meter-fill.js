@@ -74,7 +74,7 @@ function onClassAdd() {
 }
 
 function onClassRemoval() {
-  for (let i = 0, delay = 5000; i < 8; i++) {
+  for (let i = 0, delay = 1000; i < 8; i++) {
     setTimeout(function() { 
       $meter[i].style.width = 0 + "%";        
     }, delay);      
